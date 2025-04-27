@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.quozul.lifeless.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerEntityManagerMixin",
+    "ServerWorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

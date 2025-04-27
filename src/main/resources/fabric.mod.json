@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "lifeless-world",
+	"version": "${version}",
+	"name": "Lifeless World",
+	"description": "Adds a new gamerule to the game to prevent all non-essential entities from spawning. Can you beat the game without entities?",
+	"authors": [
+		"Quozul"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/lifeless-world",
+		"sources": "https://github.com/Quozul/LifelessWorld"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lifeless-world/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.quozul.lifeless.LifelessWorld"
+		]
+	},
+	"mixins": [
+		"lifeless-world.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
